@@ -1,0 +1,4 @@
+.headerNavbar {
+	background: '#000';
+	background: linear-gradient(45deg, #000 30%, transparent);
+}

@@ -1,14 +1,13 @@
 import React from 'react'
-import '../styles/hero.css'
 
-import HeroVideo from '../media/video.mp4'
+import styles from '../styles/hero.module.css'
+import HeroVideo from '../media/video/video.mp4'
 import Container from 'react-bootstrap/Container'
 
 const Hero = () => (
-	<div className='hero'>
-		<div className='videoContainer'>
+	<div className={styles.hero}>
+		<div className={styles.videoContainer}>
 			<video
-				id='bg-video'
 				src={HeroVideo}
 				preload='auto'
 				width='854px'
@@ -20,7 +19,7 @@ const Hero = () => (
 			></video>
 		</div>
 		<Container>
-			<span className='heroText font-weight-bold'>
+			<span className={styles.heroText}>
 				<span>LET'S</span>
 				<span>Create</span>
 			</span>

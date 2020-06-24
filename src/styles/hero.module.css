@@ -29,6 +29,7 @@
 
 .hero .heroText {
 	font-size: 10rem;
+	font-weight: 500;
 }
 
 .hero .heroText span:nth-child(1) {
@@ -37,4 +38,10 @@
 
 .hero .heroText span:nth-child(2) {
 	color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+	.hero .heroText {
+		font-size: 4rem;
+	}
 }

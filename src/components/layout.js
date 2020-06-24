@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'fontsource-roboto-condensed'
-import '../styles/layout.css'
 
 import Header from './Header'
 

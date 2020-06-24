@@ -1,0 +1,11 @@
+.headingText {
+	font-size: 4rem;
+	color: #fff;
+	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	.headingText {
+		font-size: 3rem;
+	}
+}

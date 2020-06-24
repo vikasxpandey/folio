@@ -1,0 +1,46 @@
+.serviceInner {
+	background: #000;
+	min-height: 200px;
+	width: 100%;
+	border: 1px solid #f0f0f0;
+	border-bottom: 5px solid #f0f0f0;
+	border-radius: 0;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	background-size: cover;
+	filter: grayscale(1);
+}
+
+.serviceInner:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.serviceInner:hover {
+	border-bottom: 5px solid red;
+	filter: grayscale(0);
+}
+
+.serviceInner h5 {
+	z-index: 10;
+	transition: all 0.3s ease-in-out;
+	font-weight: 500;
+}
+
+.serviceInner:hover h5 {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.serviceInner:nth-child(3),
+	.serviceInner:nth-child(4) {
+		margin-top: 30px;
+	}
+}
