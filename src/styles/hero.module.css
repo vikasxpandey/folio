@@ -5,6 +5,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 
 .hero .videoContainer {
@@ -29,7 +30,8 @@
 
 .hero .heroText {
 	font-size: 10rem;
-	font-weight: 500;
+	font-weight: 700;
+	will-change: transform;
 }
 
 .hero .heroText span:nth-child(1) {

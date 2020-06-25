@@ -13,6 +13,7 @@
 	margin-top: 30px;
 	background-size: cover;
 	filter: grayscale(1);
+	will-change: transform;
 }
 
 .serviceInner:after {

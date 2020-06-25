@@ -1,0 +1,35 @@
+footer {
+	background: #000;
+	background: linear-gradient(180deg, #000, transparent);
+}
+
+footer .footerInner ul {
+	list-style: none;
+}
+
+footer .footerInner li a {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+footer .footerHero {
+	font-size: 3rem;
+	font-weight: 900;
+	letter-spacing: 0.5rem;
+	color: white;
+}
+
+footer .footerSocial a {
+	margin: 0 0.4rem;
+	padding-top: 3rem;
+}
+
+@media (max-width: 768px) {
+	footer {
+		text-align: center;
+	}
+
+	footer ul {
+		padding-left: 0;
+	}
+}

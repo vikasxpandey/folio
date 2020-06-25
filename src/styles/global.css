@@ -9,13 +9,13 @@
 	outline: none !important;
 }
 
-body,
-section {
-	background: #000;
+body {
+	background: #000 !important;
 }
 
 section {
 	padding-top: 3rem;
+	min-height: 70vh;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -30,10 +30,33 @@ section {
 	color: red;
 }
 
+a.colorSecondary {
+	text-decoration: none;
+}
+
+a.colorSecondary:hover {
+	text-decoration: none;
+	color: red;
+}
+
 .colorGray {
 	color: rgba(255, 255, 255, 0.5);
 }
 
 .colorGraySolid {
 	color: #bbb;
+}
+
+.dispBlock {
+	display: block;
+}
+
+.btn-defaultBlack {
+	color: #fff !important;
+	background: #000 !important;
+}
+
+.btn-defaultBlack:hover {
+	color: #fff !important;
+	background: #111 !important;
 }

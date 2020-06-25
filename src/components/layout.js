@@ -1,11 +1,12 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'fontsource-roboto-condensed'
 
 import Header from './Header'
+import Footer from './Footer'
 
 const Layout = ({ children }) => {
 	const data = useStaticQuery(graphql`
@@ -21,18 +22,10 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<main>{children}</main>
-			<footer>
-				&copy; {new Date().getFullYear()}, Built with
-				{` `}
-				<a href='https://www.gatsbyjs.org'>Gatsby</a>
-			</footer>
+			{children}
+			<Footer />
 		</>
 	)
-}
-
-Layout.propTypes = {
-	children: PropTypes.node.isRequired
 }
 
 export default Layout

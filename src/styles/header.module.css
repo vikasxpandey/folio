@@ -2,3 +2,16 @@
 	background: '#000';
 	background: linear-gradient(45deg, #000 30%, transparent);
 }
+
+.navLink {
+	margin: 0 0.5rem;
+}
+
+.navLink a {
+	color: rgba(255, 255, 255, 0.5) !important;
+	text-decoration: none;
+}
+
+.navLink a:hover {
+	color: rgba(255, 255, 255, 0.75) !important;
+}

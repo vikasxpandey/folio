@@ -25,6 +25,13 @@ module.exports = {
 				theme_color: `#ff0000`,
 				display: `minimal-ui`
 			}
+		},
+		{
+			resolve: `gatsby-plugin-scroll-reveal`,
+			options: {
+				threshold: 10,
+				once: false
+			}
 		}
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.dev/offline

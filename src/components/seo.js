@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
@@ -61,7 +60,13 @@ function SEO({ description, lang, meta, title }) {
 					content: metaDescription
 				}
 			].concat(meta)}
-		/>
+		>
+			<script
+				src='https://embed.tawk.to/5ea6d78f69e9320caac7b74b/default'
+				crossOrigin='*'
+				type='text/javascript'
+			/>
+		</Helmet>
 	)
 }
 
@@ -69,13 +74,6 @@ SEO.defaultProps = {
 	lang: `en`,
 	meta: [],
 	description: ``
-}
-
-SEO.propTypes = {
-	description: PropTypes.string,
-	lang: PropTypes.string,
-	meta: PropTypes.arrayOf(PropTypes.object),
-	title: PropTypes.string.isRequired
 }
 
 export default SEO

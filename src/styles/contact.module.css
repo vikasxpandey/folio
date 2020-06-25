@@ -1,0 +1,26 @@
+.contactHero {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contactHero span {
+	font-size: 8rem;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 900;
+	margin: 0 1rem;
+	display: inline-block;
+}
+
+.sayHello {
+	display: inline-block !important;
+}
+
+@media (max-width: 768px) {
+	.contactHero span {
+		font-size: 4rem;
+		margin: 0.5rem;
+	}
+}

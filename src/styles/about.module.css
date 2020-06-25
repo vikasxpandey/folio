@@ -1,0 +1,46 @@
+.about {
+	position: relative;
+	margin-top: 2rem;
+}
+
+.bgContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 80vh;
+	overflow: hidden;
+	z-index: -10;
+}
+
+.bgContainer img {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.bgContainer::after {
+	content: '';
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.about .aboutContent {
+	color: #fff;
+	margin-top: 4rem;
+}
+
+.about .social a {
+	color: #fff;
+	margin: 0.5rem;
+	display: inline-block;
+}
