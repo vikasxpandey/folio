@@ -44,6 +44,10 @@ function SEO({ description, lang, meta, title }) {
 					content: `website`
 				},
 				{
+					property: `og:image`,
+					content: `https://vikasxpandey.github.io/folio_old/assets/img/me-bg.jpg`
+				},
+				{
 					name: `twitter:card`,
 					content: `summary`
 				},
@@ -56,6 +60,14 @@ function SEO({ description, lang, meta, title }) {
 					content: title
 				},
 				{
+					name: `twitter:image`,
+					content: `https://vikasxpandey.github.io/folio_old/assets/img/me-bg.jpg`
+				},
+				{
+					name: `twitter:site`,
+					content: `https://www.vikasxpandey.in`
+				},
+				{
 					name: `twitter:description`,
 					content: metaDescription
 				}
@@ -66,6 +78,23 @@ function SEO({ description, lang, meta, title }) {
 				crossOrigin='*'
 				type='text/javascript'
 			/>
+			<script type='application/ld+json'>
+				{` {
+					"@context" : "http://schema.org",
+					"@type" : "Person",
+					"name" : "Vikas Pandey",
+					"disambiguatingDescription": "Software Engineer",
+					"address" : {
+						"@type" : "PostalAddress",
+						"addressLocality" : "Mumbai",
+						"addressRegion" : "Maharashtra",
+						"addressCountry" : "India",
+						"postalCode" : "400 001"
+					},
+					"jobTitle": "Software Engineer",
+					"image":"https://vikasxpandey.github.io/folio_old/assets/img/me-bg.jpg"
+					}`}
+			</script>
 		</Helmet>
 	)
 }
