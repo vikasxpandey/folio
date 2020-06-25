@@ -12,6 +12,7 @@ const IndexPage = () => {
 	return (
 		<>
 			<Layout>
+				<SEO title='Portfolio' />
 				<Hero />
 				<section id='projects'>
 					<Projects />
