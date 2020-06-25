@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => {
 					<span className='colorSecondary'>{siteTitle.split(' ')[1]}</span>
 				</Navbar.Brand>
 				<Navbar.Toggle
-					onClick={() => setExpanded(true)}
+					onClick={() => setExpanded(!expanded)}
 					aria-controls='basic-navbar-nav'
 				/>
 				<Navbar.Collapse id='basic-navbar-nav'>

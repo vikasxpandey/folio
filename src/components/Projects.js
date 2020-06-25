@@ -12,7 +12,7 @@ const pages = [
 				<h2 className='font-weight-bold'>
 					Canvastones<span className='colorSecondary'>.com</span>
 				</h2>
-				<p>An E-commerce website based on php-Opencart framework.</p>
+				<p>An E-commerce website.</p>
 				<p>
 					This project was made as a Freelance project in three months from
 					Prototyping to Deployment and Maintainance. It uses Opencart as the
