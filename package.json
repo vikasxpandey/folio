@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Vikas Pandey",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal Portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Vikas Pandey <vikasxpandey.in>",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
     "bootstrap": "^4.5.0",
