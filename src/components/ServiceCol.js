@@ -21,6 +21,8 @@ const ServiceCol = ({ bg, text }) => {
 	return (
 		<Col md={3}>
 			<animated.div
+				data-sal='slide-up'
+				data-sal-duration='500'
 				onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
 				onMouseLeave={() => set({ xys: [0, 0, 1] })}
 				className={styles.serviceInner}

@@ -1,5 +1,4 @@
 module.exports = {
-	pathPrefix: '/folio',
 	siteMetadata: {
 		title: `Vikas Pandey`,
 		description: `I specialize in Web Development, App Development, UI/UX Development and Data Science to build and strengthen your brand's online presence and create an elegant digital experience.`,
