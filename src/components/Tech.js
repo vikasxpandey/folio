@@ -18,7 +18,7 @@ const Tech = () => {
 	)
 	const [bind, { width }] = useMeasure()
 	const [items, set] = useState(data)
-	useEffect(() => void setInterval(() => set(shuffle), 2000), [])
+	useEffect(() => void setInterval(() => set(shuffle), 3000), [])
 
 	let heights = new Array(columns).fill(0)
 	let gridItems = items.map((child, i) => {
