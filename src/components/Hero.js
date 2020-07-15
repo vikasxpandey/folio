@@ -18,6 +18,7 @@ const Hero = () => {
 		<div
 			className={styles.hero}
 			onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
+			role='banner'
 		>
 			<div className={styles.videoContainer}>
 				<video

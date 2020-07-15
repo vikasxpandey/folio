@@ -21,7 +21,7 @@ import dataScience from '../media/images/data-sci.jpg'
 const Services = () => (
 	<>
 		<Title text='Services' />
-		<Container>
+		<Container className='mb-5'>
 			<ServiceRow one='On the' two='W' three='eb'>
 				<ServiceCol bg={singlePageWebsite} text='Single Page Website' />
 				<ServiceCol bg={portfolio} text='Portfolio' />

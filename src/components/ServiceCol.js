@@ -20,18 +20,19 @@ const ServiceCol = ({ bg, text }) => {
 
 	return (
 		<Col md={3}>
-			<animated.div
-				data-sal='slide-up'
-				onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-				onMouseLeave={() => set({ xys: [0, 0, 1] })}
-				className={styles.serviceInner}
-				style={{
-					backgroundImage: `url(${bg})`,
-					transform: props.xys.interpolate(trans)
-				}}
-			>
-				<h5>{text}</h5>
-			</animated.div>
+			<div data-sal='slide-up'>
+				<animated.div
+					onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+					onMouseLeave={() => set({ xys: [0, 0, 1] })}
+					className={styles.serviceInner}
+					style={{
+						backgroundImage: `url(${bg})`,
+						transform: props.xys.interpolate(trans)
+					}}
+				>
+					<h5>{text}</h5>
+				</animated.div>
+			</div>
 		</Col>
 	)
 }

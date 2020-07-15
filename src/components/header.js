@@ -43,6 +43,12 @@ const Header = ({ siteTitle }) => {
 							onClick={() => setExpanded(false)}
 							className={styles.navLink}
 						>
+							<Link to='/#tech'>Tech Stack</Link>
+						</Navbar.Text>
+						<Navbar.Text
+							onClick={() => setExpanded(false)}
+							className={styles.navLink}
+						>
 							<Link to='/#about'>About</Link>
 						</Navbar.Text>
 						<Navbar.Text

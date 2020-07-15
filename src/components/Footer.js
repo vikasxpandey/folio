@@ -17,26 +17,47 @@ const Footer = () => (
 							<span className='colorSecondary'>Pandey</span>
 						</h2>
 						<div className={styles.footerSocial}>
-							<a target='_blank' href='https://www.facebook.com/vikasxpandey'>
-								<i class='fab colorPrimary fa-facebook'></i>
-							</a>
-							<a target='_blank' href='https://www.twitter.com/vikasxpandey'>
-								<i class='fab colorPrimary fa-twitter'></i>
-							</a>
-							<a target='_blank' href='https://www.instagram.com/vikasxpandey'>
-								<i class='fab colorPrimary fa-instagram'></i>
+							<a
+								rel='noreferrer'
+								target='_blank'
+								href='https://www.facebook.com/vikasxpandey'
+							>
+								<i className='fab colorPrimary fa-facebook'></i>
 							</a>
 							<a
+								rel='noreferrer'
+								target='_blank'
+								href='https://www.twitter.com/vikasxpandey'
+							>
+								<i className='fab colorPrimary fa-twitter'></i>
+							</a>
+							<a
+								rel='noreferrer'
+								target='_blank'
+								href='https://www.instagram.com/vikasxpandey'
+							>
+								<i className='fab colorPrimary fa-instagram'></i>
+							</a>
+							<a
+								rel='noreferrer'
 								target='_blank'
 								href='https://www.linkedin.com/in/vikasxpandey'
 							>
-								<i class='fab colorPrimary fa-linkedin'></i>
+								<i className='fab colorPrimary fa-linkedin'></i>
 							</a>
-							<a target='_blank' href='https://www.codepen.io/vikasxpandey'>
-								<i class='fab colorPrimary fa-codepen'></i>
+							<a
+								rel='noreferrer'
+								target='_blank'
+								href='https://www.codepen.io/vikasxpandey'
+							>
+								<i className='fab colorPrimary fa-codepen'></i>
 							</a>
-							<a target='_blank' href='https://www.github.com/vikasxpandey'>
-								<i class='fab colorPrimary fa-github'></i>
+							<a
+								rel='noreferrer'
+								target='_blank'
+								href='https://www.github.com/vikasxpandey'
+							>
+								<i className='fab colorPrimary fa-github'></i>
 							</a>
 						</div>
 					</div>

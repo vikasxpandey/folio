@@ -5,6 +5,7 @@ import SEO from '../components/Seo'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Services from '../components/Services'
+import Tech from '../components/Tech'
 import About from '../components/About'
 import Contact from '../components/Contact'
 
@@ -19,6 +20,9 @@ const IndexPage = () => {
 				</section>
 				<section id='services'>
 					<Services />
+				</section>
+				<section id='tech'>
+					<Tech />
 				</section>
 				<section id='about'>
 					<About />

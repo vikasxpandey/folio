@@ -31,22 +31,46 @@ const About = () => (
 				<span className='colorSecondary'> Get Started.</span>
 			</h4>
 			<div className={styles.social}>
-				<a target='_blank' href='https://www.facebook.com/vikasxpandey'>
+				<a
+					rel='noreferrer'
+					target='_blank'
+					href='https://www.facebook.com/vikasxpandey'
+				>
 					<i className='fab fa-2x fa-facebook'></i>
 				</a>
-				<a target='_blank' href='https://www.twitter.com/vikasxpandey'>
+				<a
+					rel='noreferrer'
+					target='_blank'
+					href='https://www.twitter.com/vikasxpandey'
+				>
 					<i className='fab fa-2x fa-twitter'></i>
 				</a>
-				<a target='_blank' href='https://www.instagram.com/vikasxpandey'>
+				<a
+					rel='noreferrer'
+					target='_blank'
+					href='https://www.instagram.com/vikasxpandey'
+				>
 					<i className='fab fa-2x fa-instagram'></i>
 				</a>
-				<a target='_blank' href='https://www.linkedin.com/in/vikasxpandey'>
+				<a
+					rel='noreferrer'
+					target='_blank'
+					href='https://www.linkedin.com/in/vikasxpandey'
+				>
 					<i className='fab fa-2x fa-linkedin'></i>
 				</a>
-				<a target='_blank' href='https://www.codepen.io/vikasxpandey'>
+				<a
+					rel='noreferrer'
+					target='_blank'
+					href='https://www.codepen.io/vikasxpandey'
+				>
 					<i className='fab fa-2x fa-codepen'></i>
 				</a>
-				<a target='_blank' href='https://www.github.com/vikasxpandey'>
+				<a
+					rel='noreferrer'
+					target='_blank'
+					href='https://www.github.com/vikasxpandey'
+				>
 					<i className='fab fa-2x fa-github'></i>
 				</a>
 			</div>
